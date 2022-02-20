@@ -1,4 +1,6 @@
 <!DOCTYPE html>
+
+
 <html>
 
 <head>
@@ -11,15 +13,21 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container bg-body">
         <header class="row">
             <div class="col">
                 <div class="image_back_header">
                     <img src="resources/img-back.jpg" class="img-back-header">
                 </div>
-                <div class="menu_header d-flex flex-row" id="menu">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <a class="navbar-brand" href="#">Navbar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                      <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
 
-                </div>
+                    </div>
+                </nav>
             </div>
         </header>
         <div class="row">
