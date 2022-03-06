@@ -34,6 +34,7 @@
             <div class="col-8 articles m-1">
                 <h2>Articles</h2>
                 <?php for($i=0;$i <=10; $i++){
+                    
                     echo $article_section;
                 } ?>
             </div>
@@ -46,6 +47,7 @@
     </div>
     <scrip src="bootstrap/js/bootstrap.bundle.min.js"></scrip>
     <script src="scripts/HeaderMenuLoad.js"></script>
+    <script src="scripts/Articles.js"></script>
 </body>
 
 </html>
