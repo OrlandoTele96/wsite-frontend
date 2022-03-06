@@ -13,7 +13,7 @@
 </head>
 
 <body>
-    <div class="container bg-body">
+    <div class="container-fluid bg-body">
         <header class="row">
             <div class="col">
                 <div class="image_back_header">
@@ -30,8 +30,17 @@
                 </nav>
             </div>
         </header>
-        <div class="row">
-        </div>
+        <section class="row align-items-start">
+            <div class="col-8 articles m-1">
+                <h2>Articles</h2>
+                <?php for($i=0;$i <=10; $i++){
+                    echo $article_section;
+                } ?>
+            </div>
+            <div class="col info m-1">
+                <p>div</p>
+            </div>
+        </section>
         <footer clas="row">
         </footer>
     </div>
